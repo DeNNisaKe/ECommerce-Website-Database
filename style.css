@@ -1,0 +1,57 @@
+img {
+  max-width: 100%;
+  height: auto;
+  background: lightblue;
+  background: radial-gradient(white 30%, lightblue 70%);
+}
+
+.fa-star,
+.fa-star-half {
+  color: gold;
+  padding: 3% 0;
+}
+
+#cart_count {
+  text-align: right;
+  padding: 0 0.9rem 0.1rem 0.9rem;
+  border-radius: 3rem;
+}
+
+.shopping-cart {
+  padding: 3% 0;
+}
+
+.cart-items + .cart-items {
+  padding: 2% 0;
+}
+
+.price-details h6 {
+  padding: 3% 2%;
+}
+
+.signed-in {
+  /* arrange it to right */
+  float: right;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.cartButtons {
+  /* arrange the 2 buttons */
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.form-group {
+  /* arrange form */
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.deleteSubmit {
+  /* arrange button to left */
+  float: left;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
